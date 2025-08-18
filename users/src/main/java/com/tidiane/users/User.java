@@ -12,7 +12,7 @@ public class User {
     //Empty constructor for JPA
     User(){}
 
-    User(String userName, String email){
+    public User(String userName, String email){
         this.userName = userName;
         this.email = email;
     }
